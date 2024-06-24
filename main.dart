@@ -1,5 +1,6 @@
 void main(){
   int? age;
+  // we can assign an empty string to this variable as well(i.e. String name = "";) but defining it as null is a good practice 
   String? name;
 
 
