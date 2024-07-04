@@ -15,7 +15,7 @@ class Area{
   // try and catch value is used for exception handling(here e stands for exception)
   try {
     double rectangleArea = height*width;
-  print('Area of rectangle is ${rectangleArea}');
+  print('Area of rectangle is '+ rectangleArea.toString());
   } catch (e) {
     print(e);
   }
