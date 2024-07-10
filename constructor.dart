@@ -8,7 +8,8 @@ teachers.name = 'Umama';
 teachers.displaydetails();
 
 Student ayesha = Student(5,100);
-
+//as we have used curly braces in constructor so now i have to add the paramets name in here as well.
+Schools schools = Schools(name: 'Kips School',year_founded: 1920);
 }
 
 class Teachers{
@@ -33,4 +34,15 @@ class Student{
 Student(this.class_standard, this.marks){
 print("Ayesha is in class ${class_standard} and she obtained ${marks} in matric");
 }
+}
+
+class Schools {
+  String? name;
+  int? year_founded;
+  // if we pass curly braces inside constructor then we have to use the name of the parameter as well while calling
+Schools({ required this.name, this.year_founded}){
+print("the name of the school is ${name} and it was founded in ${year_founded}");
+}
+
+  
 }
