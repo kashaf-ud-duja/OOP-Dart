@@ -24,7 +24,6 @@ class OptimumTech {
     this.departments = dpt;
     this.employees = emp_name;
     print("Called");
-    print(
-        "${employees} is the employee of ${departments} Department at Optimum Tech");
+    print("${employees} is the employee of ${departments} Department at Optimum Tech");
   }
 }
